@@ -2,11 +2,14 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
+  selector: 'app-user-loader',
   standalone: true,
   imports: [CommonModule],
-  templateUrl: './user.component.html',
-  styles: ``
+  template: `
+    <h1>Hola Mundo - APP - USER - LOADER</h1>
+  `
 })
-export class UserComponent {
 
+export class UsersLoaderComponent {
+    constructor(){}
 }

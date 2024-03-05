@@ -4,9 +4,9 @@ import { CommonModule } from '@angular/common';
 @Component({
   standalone: true,
   imports: [CommonModule],
-  templateUrl: './user.component.html',
+  templateUrl: './dashboard.component.html',
   styles: ``
 })
-export class UserComponent {
+export class DashboardComponent {
 
 }

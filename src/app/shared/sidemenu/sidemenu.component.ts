@@ -2,11 +2,12 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
+  selector: 'app-sidemenu',
   standalone: true,
   imports: [CommonModule],
-  templateUrl: './user.component.html',
-  styles: ``
+  templateUrl: './sidemenu.component.html',
+  styleUrl: './sidemenu.component.css'
 })
-export class UserComponent {
+export class SidemenuComponent {
 
 }
